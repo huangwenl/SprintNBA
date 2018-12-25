@@ -30,7 +30,8 @@ android {
 
                 keyAlias 'wlkey'
                 keyPassword 'huangwenliang'
-                storeFile file('E:/android_workspace/liangliang.jks')
+                //storeFile file('E:/android_workspace/liangliang.jks')
+                storeFile file('/home/huangwenliang/test/liangliang.jks')
                 storePassword 'huangwenliang'
             } catch (ex) {
                 throw new InvalidUserDataException(ex.toString())
@@ -39,7 +40,8 @@ android {
         debug {
             keyAlias 'wlkey'
             keyPassword 'huangwenliang'
-            storeFile file('E:/android_workspace/liangliang.jks')
+            //storeFile file('E:/android_workspace/liangliang.jks')
+			storeFile file('/home/huangwenliang/test/liangliang.jks')
             storePassword 'huangwenliang'
         }
     }
