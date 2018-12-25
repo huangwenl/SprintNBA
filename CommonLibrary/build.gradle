@@ -17,9 +17,9 @@ android {
         }
     }
 	
-	lintOptions {
-        bortOnError false
-    }
+	//lintOptions {
+	//	bortOnError false
+   // }
 }
 
 dependencies {
